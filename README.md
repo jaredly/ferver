@@ -7,8 +7,8 @@ This is similar to [semver](http://semver.org) and uses the same operators like
 
 Large projects like `jQuery` and `Go` effectively use this type of versioning,
 except without the "development channel".
-Breaking changes are an inevitable thorn in a software development,
-and we shouldn't make it any more difficult.
+Breaking changes are an inevitable in software development,
+and we shouldn't make it any more difficult on ourselves.
 Ferver is more practical and is more inline with our common sense.
 
 ## Semantics
@@ -45,6 +45,11 @@ For example:
 - You're combining many "minor" breaking changes.
 - You've removed some features.
 - You've decided to change the character, purpose, or philosophy of the library.
+
+Developers __should__ bump the major version on any breaking changes,
+but __may__ instead opt for bumping the `minor` version.
+Either way, the versioning scheme the developer chooses
+__should__ be public.
 
 ### Minor breaking changes
 
