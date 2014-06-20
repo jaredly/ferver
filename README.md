@@ -16,11 +16,11 @@ Like semver, ferver uses the same 3-number versioning scheme:
 
 However, the semantics for each number is different:
 
-| Number        | semver                  | ferver
-|-------------------------------------------------------------------|
-| Major         | Breaking changes        | Major breaking changes
-| Minor         | New features            | Minor breaking changes
-| Patch         | Non-breaking bug fixes  | Non-breaking changes
+| Number        | semver                  | ferver                  |
+|---------------|-------------------------|-------------------------|
+| Major         | Breaking changes        | Major breaking changes  |
+| Minor         | New features            | Minor breaking changes  |
+| Patch         | Non-breaking bug fixes  | Non-breaking changes    |
 
 Thus, for ferver, `patch` isn't really a "patch", just a "change",
 but we'll continue calling it `patch` because I can't think of a better word.
