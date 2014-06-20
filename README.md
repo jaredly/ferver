@@ -5,7 +5,6 @@ Fe(a)rVer - a versioning scheme for those of us who only care about breaking cha
 This is similar to [semver](http://semver.org) and uses the same operators like
 `~` and `^`, but has different as well as stricter semantics.
 
-This is more inline with how people see versions as well as more practical.
 Large projects like `jQuery` and `Go` effectively use this type of versioning,
 except without the "development channel".
 Breaking changes are an inevitable thorn in a software development,
