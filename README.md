@@ -69,6 +69,11 @@ Ferver does not allow affixes. There's no `1.0.0-beta1` or `2.0.0-1`.
 In other words, only "strict" versions are allowed.
 Development versions should be published in a different channel.
 
+## Consuming ferver packages
+
+Consumers of packages using fear-driven versioning __should not__ use `^x.y.z`
+version ranges and instead __should__ use `~x.y.z`, whether or not `x > 0`.
+
 ## Types of Changes
 
 ### Major breaking changes
@@ -96,9 +101,7 @@ or changes that __may__ introduce a breaking change.
 - You've deprecated any feature.
 - You've fixed a bug that people could have been using as a feature.
 - You've refactored a non-trivial portion of your code.
-- You've updated an external dependency,
-   which is not a significant aspect of your public API,
-   that may introduce some breaking changes.
+- You've updated an external dependency that may introduce some breaking changes.
 - You've changed one of your dependencies.
 
 Minor versions should be bumped __liberally__.
