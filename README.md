@@ -71,7 +71,7 @@ Development versions should be published in a different channel.
 
 ## Consuming ferver packages
 
-Consumers of packages using fear-driven versioning __should not__ use `^x.y.z`
+Consumers of packages using ferver-driven versioning __should not__ use `^x.y.z`
 version ranges and instead __should__ use `~x.y.z`, whether or not `x > 0`.
 
 ## Types of Changes
